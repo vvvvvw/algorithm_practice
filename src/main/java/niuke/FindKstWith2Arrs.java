@@ -5,18 +5,9 @@ import java.util.Scanner;
 /**
  * Created by 陈钻健 on 2016/8/10.
  */
+/*
 public class FindKstWith2Arrs {
     public static int findMedianWith2Arrs(){
-        Scanner scanner=new Scanner(System.in);
-        int n=scanner.nextInt();
-        int[] arr1=new int[n];
-        int[] arr2=new int[n];
-        for(int i=0;i<n;i++){
-            arr1[i]=scanner.nextInt();
-        }
-        for(int i=0;i<n;i++){
-            arr2[i]=scanner.nextInt();
-        }
         int left1=0,left2=0;
         int mid1,mid2;
         int right1=n-1,right2=n-1;
@@ -42,6 +33,19 @@ public class FindKstWith2Arrs {
         }
     }
     public static void main(String[] args){
+        Scanner scanner=new Scanner(System.in);
+        int n=scanner.nextInt();
+        int[] arr1=new int[n];
+        for(int i=0;i<n;i++){
+            arr1[i]=scanner.nextInt();
+        }
+        int m=scanner.nextInt();
+        int[] arr2=new int[m];
+        for(int i=0;i<m;i++){
+            arr2[i]=scanner.nextInt();
+        }
+
 
     }
 }
+*/
