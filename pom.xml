@@ -22,6 +22,14 @@
         <version>9.2.18.v20160721</version>
     </dependency>
 
+    <!-- https://mvnrepository.com/artifact/cglib/cglib -->
+    <dependency>
+        <groupId>cglib</groupId>
+        <artifactId>cglib</artifactId>
+        <version>3.2.4</version>
+    </dependency>
+
+
 </dependencies>
     
 </project>
