@@ -3,7 +3,7 @@ package LeetCode;
 /**
  * Created by chencen on 2016/9/4.
  */
-public class LengthofLastWord58 {
+public class Main58 {
     public int lengthOfLastWord(String s) {
         if(null==s&&s.length()==0){
             return 0;

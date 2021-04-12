@@ -5,7 +5,7 @@ import JZOF.PrintListFromTailToHead;
 /**
  * Created by chencen on 2016/9/4.
  */
-public class Rotate_List61 {
+public class Main61 {
       public static class ListNode {
           int val;
           ListNode next;

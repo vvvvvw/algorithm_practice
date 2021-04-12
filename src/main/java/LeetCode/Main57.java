@@ -1,6 +1,5 @@
 package LeetCode;
 
-import javafx.scene.control.SpinnerValueFactory;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +7,7 @@ import java.util.List;
 /**
  * Created by chencen on 2016/9/3.
  */
-public class Insert_Interval57 {
+public class Main57 {
      public class Interval {
          int start;
          int end;

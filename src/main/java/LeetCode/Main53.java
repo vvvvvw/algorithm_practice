@@ -3,7 +3,7 @@ package LeetCode;
 /**
  * Created by chencen on 2016/9/3.
  */
-public class Maximum_Subarray53 {
+public class Main53 {
     public int maxSubArray(int[] nums) {
         int max=Integer.MIN_VALUE;
         int maxNum=Integer.MIN_VALUE;

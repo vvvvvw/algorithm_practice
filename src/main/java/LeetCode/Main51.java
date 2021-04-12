@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Created by chencen on 2016/9/3.
  */
-public class N_Queens51 {
+public class Main51 {
     public boolean isvalid(int[] ints,int x,int y) {
         for (int i = 0; i < x; i++) {
             if (ints[i] == y || (y - x == ints[i] - i) || (x + y == ints[i] + i)) {
@@ -53,7 +53,7 @@ public class N_Queens51 {
         return res;
     }
     public static void main(String[] args){
-        new N_Queens51().solveNQueens(4);
+        new Main51().solveNQueens(4);
     }
 
 }

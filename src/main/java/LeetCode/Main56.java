@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * Created by chencen on 2016/9/3.
  */
-public class Merge_Intervals56 {
+public class Main56 {
       public class Interval {
           int start;
           int end;

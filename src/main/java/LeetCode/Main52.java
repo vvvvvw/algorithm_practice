@@ -3,7 +3,7 @@ package LeetCode;
 /**
  * Created by chencen on 2016/9/3.
  */
-public class N_Queens_II52 {
+public class Main52 {
     private int count;
     private int n;
     public boolean isvalid(int[] ints,int x,int y) {
@@ -35,6 +35,6 @@ public class N_Queens_II52 {
     }
 
     public static void main(String[] args){
-        System.out.println(new N_Queens_II52().totalNQueens(4));
+        System.out.println(new Main52().totalNQueens(4));
     }
 }

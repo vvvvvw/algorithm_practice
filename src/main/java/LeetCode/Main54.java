@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Created by chencen on 2016/9/3.
  */
-public class Spiral_Matrix_54 {
+public class Main54 {
     List<Integer> list=new ArrayList<Integer>();
     public void print(int[][] matrix,int x1,int y1,int x2,int y2){
         for(int i=x1;i<=x2;i++){

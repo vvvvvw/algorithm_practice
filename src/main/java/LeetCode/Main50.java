@@ -3,7 +3,7 @@ package LeetCode;
 /**
  * Created by chencen on 2016/9/3.
  */
-public class MyPow50 {
+public class Main50 {
     public static double myPow(double x, int n) {
         if (n == 0) {
             return 1;
