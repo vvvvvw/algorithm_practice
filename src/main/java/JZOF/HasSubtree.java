@@ -18,13 +18,13 @@ public class HasSubtree {
 
     }
 
-    StringBuffer inOrder(StringBuffer stringBuffer,TreeNode)
-    public boolean HasSubtree(TreeNode root1,TreeNode root2) {
+   // StringBuffer inOrder(StringBuffer stringBuffer,TreeNode)
+    /*public boolean HasSubtree(TreeNode root1,TreeNode root2) {
         if(root1==null||root2==null){
             return false;
         }
         StringBuffer stringBuffer=new StringBuffer();
 
-    }
+    }*/
 
 }

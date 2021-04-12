@@ -1,7 +1,5 @@
 package LeetCode;
 
-import jdk.nashorn.internal.objects.NativeUint8Array;
-
 public class Main6 {
 
     /*
