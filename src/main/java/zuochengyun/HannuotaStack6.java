@@ -3,6 +3,7 @@ package zuochengyun;
 public class HannuotaStack6 {
 
 
+/*
     public static int hanNuoProblem(int num, String left, String mid, String right, int total){
         int step = 0;
         step += move(num, left, mid);
@@ -29,5 +30,57 @@ public class HannuotaStack6 {
 
     public static void main(String[] args) {
         System.out.println(hanNuoProblem(1, "left", "mid", "right", 2));
+    }
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    public static void main(String[] args) {
+        System.out.println(HanNuo(2,"left","mid","right"));
+
+    }
+
+    private static int HanNuo(int n, String left,String mid,String right){
+        int step = 0;
+        if (n==1){
+            step += move(1, left, mid);
+            step += move(1, mid,right);
+            return step;
+        }
+        step += HanNuo(n-1,left,mid,right);
+        step += move(n,left,mid);
+        step += HanNuo(n-1,right,mid,left);
+        step += move(n,mid,right);
+        step += HanNuo(n-1,left,mid,right);
+        return step;
+    }
+
+    private static int move(int n, String from, String to) {
+        if (from.equalsIgnoreCase(to)){
+            return 0;
+        }else{
+            System.out.printf("move %d from %s to %s\n", n, from, to);
+            return 1;
+        }
     }
 }
